@@ -51,9 +51,9 @@ The dataset images, the ground-truth masks, and the model weights are **not** st
    pip install torch segmentation-models-pytorch opencv-python numpy
    ```
 
-2. Download the weights **`hair_unet_r34.pt`** (98 MB) from Google Drive and put the file in `model/`:
+2. Download the weights **`hair_unet_r34.pt`** (98 MB) from the Google Drive folder below and put the file in `model/`:
 
-   **[Download hair_unet_r34.pt](GOOGLE_DRIVE_LINK)**
+   **[Google Drive: hair_unet_r34.pt](https://drive.google.com/drive/folders/1KvK0v7hwC6VB-hQR_bGfhpi8M380DOM6?usp=sharing)**
 
 3. Run:
 

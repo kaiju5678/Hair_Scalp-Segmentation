@@ -45,6 +45,16 @@ The dataset images, the ground-truth masks, and the model weights are **not** st
 
 ## Quick start: predict hair masks
 
+0. (Recommended) Create a virtual environment so these packages stay separate from your other projects:
+
+   ```bash
+   python -m venv .venv
+   # Windows
+   .venv\Scriptsctivate
+   # macOS / Linux
+   source .venv/bin/activate
+   ```
+
 1. Install the packages (Python 3.10+; install the PyTorch build that matches your GPU from [pytorch.org](https://pytorch.org) first if you want CUDA):
 
    ```bash
@@ -68,7 +78,7 @@ The model was trained on 640×480 scalp microscope images. It also follows hair 
 
 ## Training and evaluation
 
-Install the full environment (tested with Python 3.12, PyTorch 2.14 + CUDA 13.0 on a 4 GB laptop GPU):
+Inside the same virtual environment, install the full environment (tested with Python 3.12, PyTorch 2.14 + CUDA 13.0 on a 4 GB laptop GPU):
 
 ```bash
 pip install -r requirements.txt

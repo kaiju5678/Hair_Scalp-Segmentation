@@ -1,0 +1,14 @@
+{
+ "name": "abl198_full_s2",
+ "arch": "Unet",
+ "encoder": "resnet34",
+ "epochs": 120,
+ "repeat": 4,
+ "crop": 384,
+ "bs": 8,
+ "lr": 0.0005,
+ "train_splits": "train",
+ "workers": 4,
+ "aug": "full",
+ "seed": 2
+}

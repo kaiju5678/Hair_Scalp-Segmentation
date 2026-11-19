@@ -50,7 +50,7 @@ The dataset images, the ground-truth masks, and the model weights are **not** st
    ```bash
    python -m venv .venv
    # Windows
-   .venv\Scriptsctivate
+   .venv\Scripts\activate
    # macOS / Linux
    source .venv/bin/activate
    ```

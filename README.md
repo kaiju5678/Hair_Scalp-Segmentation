@@ -41,6 +41,8 @@ demo/       side-by-side demo: U²-Net vs our model on your own images
 docs/       ground_truth_tutorial.md: how the ground truth was built, step by step
 ```
 
+A step-by-step **CVAT annotation tutorial with screenshots** (`CVAT_Tutorial.pdf`, 7 pages) is in the [Google Drive folder](https://drive.google.com/drive/folders/1KvK0v7hwC6VB-hQR_bGfhpi8M380DOM6?usp=sharing), next to the model weights.
+
 The dataset images, the ground-truth masks, and the model weights are **not** stored in this repository.
 
 ## Quick start: predict hair masks

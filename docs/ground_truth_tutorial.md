@@ -56,6 +56,8 @@ Check `work/overlay/<camera>/*.jpg` (image | initial mask | pre-label). In the o
 
 ## 4. Correct the masks in CVAT
 
+> A longer version of this section, with screenshots of every CVAT dialog, is available as `CVAT_Tutorial.pdf` in the [Google Drive folder](https://drive.google.com/drive/folders/1KvK0v7hwC6VB-hQR_bGfhpi8M380DOM6?usp=sharing).
+
 ### 4.1 Prepare the upload files
 
 ```bash
